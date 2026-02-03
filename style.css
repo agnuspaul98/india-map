@@ -17,7 +17,8 @@ body {
 }
 
 .state:hover {
-  fill: #ff7a00;
+  fill: #08d130;
   transform: scale(1.05);
   cursor: pointer;
 }
+
