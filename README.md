@@ -1,4 +1,4 @@
-# India Map
+<!-- # India Map
 
 An interactive web-based map project focused on India.
 
@@ -81,6 +81,26 @@ Contributions are welcome. Feel free to open an issue or submit a pull request.
 ---
 
 ## License
+This project is open for learning and experimentation. -->
+# India Map
+
+An interactive web-based map project focused on India.
+
+## Overview
+This project demonstrates a simple front-end setup using HTML, CSS, and SVG to build an interactive map interface of India.
+Users can hover over regions to see visual feedback. This project is designed for learning, experimentation, and as a foundation for more advanced interactive maps.
+
+## Features
+- Simple HTML/CSS structure
+- Interactive hover effects
+- Fully responsive SVG map
+- Lightweight and easy to run locally
+- Easy to customize and expand
+
+## Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Aroojsarfraz90/india-map.git
 This project is open for learning and experimentation.
 ## Who is this for?
 This project is for beginners who want to learn HTML and CSS by building a simple India map.
