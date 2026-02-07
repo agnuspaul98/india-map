@@ -66,3 +66,19 @@ Contributions are welcome. Feel free to open an issue or submit a pull request.
 
 ## License
 This project is open for learning and experimentation.
+## Who is this for?
+This project is for beginners who want to learn HTML and CSS by building a simple India map.
+
+## What is HTML?
+HTML is used to structure web pages. It tells the browser what content to show.
+
+## What is CSS?
+CSS is used to style HTML elements like colors, sizes, and layout.
+
+## What is Hover?
+Hover means when you place your mouse over an element and it changes its style.
+
+## What will you learn?
+- Basic HTML structure
+- Styling with CSS
+- Hover effects
