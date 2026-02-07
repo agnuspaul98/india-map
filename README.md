@@ -51,7 +51,7 @@ Hover means when you move your mouse over an element (like a state on the map), 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Amansarfraz/india-map.git
+https://github.com/agnuspaul98/india-map.git
 cd india-map
 ---
 
@@ -100,10 +100,10 @@ Users can hover over regions to see visual feedback. This project is designed fo
 ## Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Aroojsarfraz90/india-map.git
-This project is open for learning and experimentation.
+   https://github.com/agnuspaul98/india-map.git
+
 ## Who is this for?
-This project is for beginners who want to learn HTML and CSS by building a simple India map.
+This project is for beginners who want to learn HTML and CSS by building a simple India map. This project is open for learning and experimentation.
 
 ## What is HTML?
 HTML is used to structure web pages. It tells the browser what content to show.
