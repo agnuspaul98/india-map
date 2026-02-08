@@ -39,7 +39,7 @@ No additional setup required.
 
 ## 🎯 Who Is This For?
 
-This project is ideal for:
+This project is ideal for :
 
 * Beginners learning **HTML and CSS**
 * Students exploring **SVG graphics**
