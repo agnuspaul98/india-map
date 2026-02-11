@@ -2,6 +2,11 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #343434;
+}
+
+h1 {
+    color: white;
 }
 
 .map-container {
