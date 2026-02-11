@@ -1,3 +1,4 @@
+/* ===== BASIC PAGE ===== */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -6,64 +7,82 @@ body {
 .map-container {
   width: 70%;
   margin: auto;
+  position: relative; /* tooltip ke liye important */
 }
 
+/* ===== DEFAULT STATE STYLE ===== */
 .state {
   fill: #e0e0e0;
   stroke: #333;
   stroke-width: 1;
+  cursor: pointer;
   transition: transform 0.25s ease, fill 0.25s ease;
   transform-origin: center;
 }
 
 /* ===== ISLANDS ===== */
-#INAN:hover { fill: #1ABC9C; transform: scale(1.05); cursor: pointer; }
-#INLD:hover { fill: #3498DB; transform: scale(1.05); cursor: pointer; }
+#INAN:hover { fill: #1ABC9C; transform: scale(1.05); }
+#INLD:hover { fill: #3498DB; transform: scale(1.05); }
 
 /* ===== NORTH INDIA ===== */
-#INJK:hover { fill: #A7C7E7; transform: scale(1.05); cursor: pointer; }
-#INLA:hover { fill: #C9B037; transform: scale(1.05); cursor: pointer; }
-#INHP:hover { fill: #2ECC71; transform: scale(1.05); cursor: pointer; }
-#INPB:hover { fill: #FFC300; transform: scale(1.05); cursor: pointer; }
-#INHR:hover { fill: #9ACD32; transform: scale(1.05); cursor: pointer; }
-#INUT:hover { fill: #2F855A; transform: scale(1.05); cursor: pointer; }
-#INDL:hover { fill: #5DADE2; transform: scale(1.05); cursor: pointer; }
+#INJK:hover { fill: #A7C7E7; transform: scale(1.05); }
+#INLA:hover { fill: #C9B037; transform: scale(1.05); }
+#INHP:hover { fill: #2ECC71; transform: scale(1.05); }
+#INPB:hover { fill: #FFC300; transform: scale(1.05); }
+#INHR:hover { fill: #9ACD32; transform: scale(1.05); }
+#INUT:hover { fill: #2F855A; transform: scale(1.05); }
+#INDL:hover { fill: #5DADE2; transform: scale(1.05); }
 
 /* ===== CENTRAL INDIA ===== */
-#INUP:hover { fill: #F4A460; transform: scale(1.05); cursor: pointer; }
-#INMP:hover { fill: #3CB371; transform: scale(1.05); cursor: pointer; }
-#INCT:hover { fill: #556B2F; transform: scale(1.05); cursor: pointer; }
+#INUP:hover { fill: #F4A460; transform: scale(1.05); }
+#INMP:hover { fill: #3CB371; transform: scale(1.05); }
+#INCT:hover { fill: #556B2F; transform: scale(1.05); }
 
 /* ===== WEST INDIA ===== */
-#INRJ:hover { fill: #D2691E; transform: scale(1.05); cursor: pointer; }
-#INGJ:hover { fill: #F39C12; transform: scale(1.05); cursor: pointer; }
-#INMH:hover { fill: #8E44AD; transform: scale(1.05); cursor: pointer; }
-#INGA:hover { fill: #1ABC9C; transform: scale(1.05); cursor: pointer; }
-#INDH:hover { fill: #48C9B0; transform: scale(1.05); cursor: pointer; }
+#INRJ:hover { fill: #D2691E; transform: scale(1.05); }
+#INGJ:hover { fill: #F39C12; transform: scale(1.05); }
+#INMH:hover { fill: #8E44AD; transform: scale(1.05); }
+#INGA:hover { fill: #1ABC9C; transform: scale(1.05); }
+#INDH:hover { fill: #48C9B0; transform: scale(1.05); }
 
 /* ===== EAST INDIA ===== */
-#INBR:hover { fill: #FF5733; transform: scale(1.05); cursor: pointer; }
-#INJH:hover { fill: #145A32; transform: scale(1.05); cursor: pointer; }
-#INWB:hover { fill: #C0392B; transform: scale(1.05); cursor: pointer; }
-#INOR:hover { fill: #1F618D; transform: scale(1.05); cursor: pointer; }
-#INSK:hover { fill: #16A085; transform: scale(1.05); cursor: pointer; }
+#INBR:hover { fill: #FF5733; transform: scale(1.05); }
+#INJH:hover { fill: #145A32; transform: scale(1.05); }
+#INWB:hover { fill: #C0392B; transform: scale(1.05); }
+#INOR:hover { fill: #1F618D; transform: scale(1.05); }
+#INSK:hover { fill: #16A085; transform: scale(1.05); }
 
 /* ===== NORTHEAST INDIA ===== */
-#INAR:hover { fill: #0B5345; transform: scale(1.05); cursor: pointer; }
-#INAS:hover { fill: #2E8B57; transform: scale(1.05); cursor: pointer; }
-#INNL:hover { fill: #8E44AD; transform: scale(1.05); cursor: pointer; }
-#INMN:hover { fill: #1E8449; transform: scale(1.05); cursor: pointer; }
-#INML:hover { fill: #5DADE2; transform: scale(1.05); cursor: pointer; }
-#INMZ:hover { fill: #229954; transform: scale(1.05); cursor: pointer; }
-#INTR:hover { fill: #117A65; transform: scale(1.05); cursor: pointer; }
+#INAR:hover { fill: #0B5345; transform: scale(1.05); }
+#INAS:hover { fill: #2E8B57; transform: scale(1.05); }
+#INNL:hover { fill: #8E44AD; transform: scale(1.05); }
+#INMN:hover { fill: #1E8449; transform: scale(1.05); }
+#INML:hover { fill: #5DADE2; transform: scale(1.05); }
+#INMZ:hover { fill: #229954; transform: scale(1.05); }
+#INTR:hover { fill: #117A65; transform: scale(1.05); }
 
 /* ===== SOUTH INDIA ===== */
-#INTN:hover { fill: #E74C3C; transform: scale(1.05); cursor: pointer; }
-#INKL:hover { fill: #2ECC71; transform: scale(1.05); cursor: pointer; }
-#INKA:hover { fill: #5499C7; transform: scale(1.05); cursor: pointer; }
-#INAP:hover { fill: #F1C40F; transform: scale(1.05); cursor: pointer; }
-#INTG:hover { fill: #E67E22; transform: scale(1.05); cursor: pointer; }
-#INPY:hover { fill: #AED6F1; transform: scale(1.05); cursor: pointer; }
+#INTN:hover { fill: #E74C3C; transform: scale(1.05); }
+#INKL:hover { fill: #2ECC71; transform: scale(1.05); }
+#INKA:hover { fill: #5499C7; transform: scale(1.05); }
+#INAP:hover { fill: #F1C40F; transform: scale(1.05); }
+#INTG:hover { fill: #E67E22; transform: scale(1.05); }
+#INPY:hover { fill: #AED6F1; transform: scale(1.05); }
 
 /* ===== UNION TERRITORIES ===== */
-#INCH:hover { fill: #95A5A6; transform: scale(1.05); cursor: pointer; }
+#INCH:hover { fill: #95A5A6; transform: scale(1.05); }
+
+/* ===== TOOLTIP ===== */
+#tooltip {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #333;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  pointer-events: none;
+  display: none;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  z-index: 10;
+}
